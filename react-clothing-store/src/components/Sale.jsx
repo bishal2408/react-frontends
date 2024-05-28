@@ -35,7 +35,7 @@ const Sale = () => {
 
 
     return (
-        <div className="bg-red-50 py-28 px-4 md:flex md:items-center md:px-20 my-20">
+        <div className="bg-red-50 py-28 px-4 lg:flex lg:items-center lg:px-20 my-20">
             <div className="w-full my-12 md:w-auto">
                 <h2 className="text-3xl text-gray-400 my-4 font-semibold md:my-6">
                     Clothings Hot
