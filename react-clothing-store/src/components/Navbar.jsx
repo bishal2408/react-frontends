@@ -32,12 +32,7 @@ const Navbar = () => {
             <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
                 <div className="flex lg:flex-1">
                     <NavLink to="/" className="-m-1.5 p-1.5">
-                       <p className="text-lg tracking-wider font-medium">Male Fashion</p>
-                        {/* <img
-                            className="h-8 w-auto"
-                            src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-                            alt="company logo"
-                        /> */}
+                        <img src="https://preview.colorlib.com/theme/malefashion/img/logo.png.webp" alt="Brand Logo" />
                     </NavLink>
                 </div>
                 <div className="flex lg:hidden">

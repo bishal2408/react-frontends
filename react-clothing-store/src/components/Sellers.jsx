@@ -44,7 +44,7 @@ const Sellers = () => {
     }
 
     return (
-        <div className="my-20">
+        <div className="mt-28 mb-20">
             <div className="flex items-center flex-wrap justify-evenly sm:gap-4 md:gap-0">
                 <button
                     className={`text-2xl inline-flex font-semibold hover:text-black ${activeButton === 'bestSellers' ? 'text-black' : 'text-gray-500'}`}

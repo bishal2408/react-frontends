@@ -13,7 +13,7 @@ const Sale = () => {
     const deadlineDate = new Date(currentDate.getTime() + 30 * 24 * 60 * 60 * 1000);
     const deadline = deadlineDate.toISOString().slice(0, 10);
 
-    // for static deadline you can do the following
+    // or you cab do the following
     // const deadline = "July, 21, 2025" 
 
     // deadline to date object and calculating remmaining time
@@ -35,7 +35,7 @@ const Sale = () => {
 
 
     return (
-        <div className="bg-red-50 py-28 px-4 lg:flex lg:items-center lg:px-20 my-20">
+        <div className="bg-red-50 py-28 px-4 lg:flex lg:items-center lg:px-20 my-10">
             <div className="w-full my-12 md:w-auto">
                 <h2 className="text-3xl text-gray-400 my-4 font-semibold md:my-6">
                     Clothings Hot
@@ -56,7 +56,6 @@ const Sale = () => {
                 />
                 <div className="absolute w-24 h-24 bg-gray-900 rounded-full top-0 right-2">
                     <p className="text-white px-5 py-5">
-                        {" "}
                         Sale Of <span className="font-semibold text-lg">$29.99</span>
                     </p>
                 </div>
@@ -70,20 +69,20 @@ const Sale = () => {
                     Multi-pocket Chest Bag Black
                 </h1>
 
-                <div class="flex my-8 items-center">
-                    <div class="w-1/4 text-center float-left relative">
+                <div className="flex my-8 items-center">
+                    <div className="w-1/4 text-center float-left relative">
                         <span className="text-4xl font-semibold">{days}</span> <p className="mt-4">Days</p>
                         <span className="absolute text-4xl font-semibold top-0 right-0">:</span>
                     </div>
-                    <div class="w-1/4 text-center float-left relative">
+                    <div className="w-1/4 text-center float-left relative">
                         <span className="text-4xl font-semibold">{hours}</span> <p className="mt-4">Hours</p>
                         <span className="absolute text-4xl font-semibold top-0 right-0">:</span>
                     </div>
-                    <div class="w-1/4 text-center float-left relative">
+                    <div className="w-1/4 text-center float-left relative">
                         <span className="text-4xl font-semibold">{minutes}</span> <p className="mt-4">Minutes</p>
                         <span className="absolute text-4xl font-semibold top-0 right-0">:</span>
                     </div>
-                    <div class="w-1/4 text-center float-left relative">
+                    <div className="w-1/4 text-center float-left relative">
                         <span className="text-4xl font-semibold">{seconds}</span> <p className="mt-4">Seconds</p>
                     </div>
                 </div>
