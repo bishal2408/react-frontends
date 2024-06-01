@@ -66,7 +66,7 @@ const Sellers = () => {
                 </button>
             </div>
 
-            <ProductList products={products} />
+            <ProductList products={products} isHomePage={true}/>
 
         </div>
     )

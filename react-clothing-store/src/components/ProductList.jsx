@@ -1,8 +1,8 @@
 import Product from "./Product"
 
-const ProductList = ({ products }) => {
+const ProductList = ({ products, isHomePage=false }) => {
     return (
-        <div className="isolate px-4 pt-14 mt-4 md:flex md:justify-center md:flex-wrap md:gap-8">
+        <div className={isHomePage ? "isolate px-4 pt-14 mt-4 md:flex md:justify-center md:flex-wrap md:gap-8" : "pt-14 md:flex md:justify-evenly md:flex-wrap"}>
             {products.map((item, i) => (
                     <Product
                         name={item.name}

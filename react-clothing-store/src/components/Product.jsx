@@ -7,7 +7,7 @@ const Product = ({ name, image, rating, price }) => {
     ));
 
     return (
-        <div className="group block shadow-xl mb-8 md:w-[15rem] lg:w-[16rem] xl:[20rem]">
+        <div className="group block shadow-xl mb-8 md:w-[15rem] lg:w-[17rem] xl:[20rem]">
             <div className="relative">
                 <img src={image} alt="product image" loading="lazy" className="min-w-full object-cover min-h-52" />
 

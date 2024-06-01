@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { Dialog, Menu, MenuItem, MenuItems, MenuButton } from "@headlessui/react"
+import { Dialog, Menu, MenuItem, MenuItems, MenuButton, DialogPanel } from "@headlessui/react"
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/16/solid"
 import { NavLink } from "react-router-dom"
 
@@ -22,9 +22,6 @@ const pages = [
 const Navbar = () => {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
-    const linkClass = ({ isActive }) =>
-        isActive ? 'underline underline-offset-3 text-lg font-semibold leading-6 text-gray-900 hover:underline hover:underline-offset-4'
-        : ''
 
 
     return (
@@ -86,17 +83,11 @@ const Navbar = () => {
 
             <Dialog className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
                 <div className="fixed inset-0 z-50" />
-                <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+                <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
                     <div className="flex items-center justify-between">
-                        <NavLink to="#" className="-m-1.5 p-1.5">
-                            <p className="text-lg tracking-wider font-medium">Male Fashion</p>
-
-                            {/* <img
-                                className="h-8 w-auto"
-                                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-                                alt=""
-                            /> */}
-                        </NavLink>
+                    <NavLink to="/" className="-m-1.5 p-1.5">
+                        <img src="https://preview.colorlib.com/theme/malefashion/img/logo.png.webp" alt="Brand Logo" />
+                    </NavLink>
                         <button
                             type="button"
                             className="-m-2.5 rounded-md p-2.5 text-gray-700"
@@ -144,7 +135,7 @@ const Navbar = () => {
                             </div>
                         </div>
                     </div>
-                </Dialog.Panel>
+                </DialogPanel>
             </Dialog>
         </header>
     )
