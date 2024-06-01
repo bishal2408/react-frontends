@@ -28,7 +28,7 @@ const Navbar = () => {
 
 
     return (
-        <header className="absolute inset-x-0 top-0 z-50">
+        <header className="inset-x-0 top-0 z-50">
             <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
                 <div className="flex lg:flex-1">
                     <NavLink to="/" className="-m-1.5 p-1.5">
@@ -48,7 +48,7 @@ const Navbar = () => {
                 <div className="hidden lg:flex lg:gap-x-12">
                     {navigation.map((item, i) => (
                         <NavLink key={i} to={item.to} className={({isActive}) => isActive ? 'underline underline-offset-[12px] text-lg leading-6 text-gray-900 hover:underline hover:underline-offset-[12px]' : 'text-lg leading-6 text-gray-900 hover:underline hover:underline-offset-[12px]'}>
-                            {item.name == 'Pages' ?
+                            {item.name == 'Pages' ? 
                                 <div className="text-right">
                                     <Menu>
                                         <MenuButton>
