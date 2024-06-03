@@ -2,7 +2,7 @@ import { EnvelopeIcon } from "@heroicons/react/24/outline"
 
 const Footer = () => {
     return (
-        <div className="bg-black text-white block w-full mt-52 py-8 px-4 md:px-16 md:-mt-0">
+        <div className="bg-black text-white block w-full mt-10 py-8 px-4 md:px-16 md:-mt-0">
             <div className="mb-16  md:flex md:flex-wrap md:justify-between">
                 <div className="my-11 md:w-[30%]">
                     <a href="/"><img src="https://preview.colorlib.com/theme/malefashion/img/footer-logo.png.webp" alt="brand logo" /></a>

@@ -18,7 +18,7 @@ const HeroNavigate = ({ hasChildLink = false, parentLink, childLink = null }) =>
 
     return (
         <div className="px-6 md:px-10 py-10 bg-gray-100">
-            <h3 className="text-2xl font-semibold tracking-wide mb-1">{getDisplayText(parentLink)}</h3>
+            <h3 className="text-2xl font-semibold tracking-wide mb-1">{hasChildLink ? getDisplayText(childLink) : getDisplayText(parentLink)}</h3>
             <Link to="/" className="text-md tracking-wider">Home {">"}</Link>
 
             {hasChildLink ?
