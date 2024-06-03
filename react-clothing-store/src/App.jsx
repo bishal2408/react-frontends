@@ -4,6 +4,7 @@ import MainLayout from "./layouts/MainLayout"
 import NotFoundPage from "./pages/NotFoundPage"
 import ShopPage from "./pages/ShopPage"
 import ShoppingCartPage from "./pages/ShoppingCartPage"
+import CheckoutPage from "./pages/CheckoutPage"
 
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
         <Route index element={<HomePage />}/>
         <Route path="/shop" element={<ShopPage />} />
         <Route path="/cart" element={<ShoppingCartPage />} />
+        <Route path="/checkout" element={<CheckoutPage />} />
         
         <Route path="*" element={<NotFoundPage />} />
       </Route>
