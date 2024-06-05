@@ -13,7 +13,7 @@ const navigation = [
 
 const pages = [
     { name: 'About', to: 'about' },
-    { name: 'Shop Details', to: 'shop-details' },
+    { name: 'Shop Details', to: 'product-details' },
     { name: 'Shopping Cart', to: 'cart' },
     { name: 'Check Out', to: 'checkout' },
 

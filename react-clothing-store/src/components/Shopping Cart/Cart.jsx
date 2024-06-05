@@ -48,7 +48,7 @@ const Cart = () => {
 
                 <div className='p-5 text-center my-6 md:p-0 md:flex md:justify-between'>
                     <Link to='/shop' className='inline-block mb-5 mr-6 tracking-widest text-base font-semibold bg-gray-50 p-3 border-[1px]'>CONTUNUE SHOPPING</Link>
-                    <Link to='/shop' className='inline-block mb-5 mr-6 tracking-widest text-base font-semibold text-white bg-black p-3 border-[1px]'>
+                    <Link to='#' className='inline-block mb-5 mr-6 tracking-widest text-base font-semibold text-white bg-black p-3 border-[1px]'>
                         UPDATE CART
                     </Link>
                 </div>
@@ -71,9 +71,9 @@ const Cart = () => {
                         <p className='text-base mb-4 text-gray-600'>Total <span className='text-red-900 font-semibold float-right'>$169.50</span></p>
                     </div>
 
-                    <button className='w-full text-base tracking-widest text-white bg-black py-2 font-semibold'>
+                    <Link className='block text-center w-full text-base tracking-widest text-white bg-black py-3 font-semibold'>
                         PROCEED TO CHECKOUT
-                    </button>
+                    </Link>
                 </div>
             </div>
 

@@ -9,7 +9,7 @@ const HeroNavigate = ({ hasChildLink = false, parentLink, childLink = null }) =>
             '/blog' : 'Blog',
             '/contact' : 'Contact Us',
             '/about' : 'About Us',
-            '/shop-details' : 'Shop Details',
+            '/product-details' : 'Product Details',
             '/checkout' : 'Checkout',
         }
 
