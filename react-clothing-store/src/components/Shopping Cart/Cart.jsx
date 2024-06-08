@@ -71,7 +71,7 @@ const Cart = () => {
                         <p className='text-base mb-4 text-gray-600'>Total <span className='text-red-900 font-semibold float-right'>$169.50</span></p>
                     </div>
 
-                    <Link className='block text-center w-full text-base tracking-widest text-white bg-black py-3 font-semibold'>
+                    <Link to='/checkout' className='block text-center w-full text-base tracking-widest text-white bg-black py-3 font-semibold'>
                         PROCEED TO CHECKOUT
                     </Link>
                 </div>

@@ -1,3 +1,4 @@
+import InputField from "../components/Checkout/InputField"
 import HeroNavigate from "../components/HeroNavigate"
 
 
@@ -16,8 +17,23 @@ const ProductDetailsPage = () => {
             <div>
                 <div className="flex flex-wrap">
                     {productImages.map((productImage, i) => (
-                        <div className="p-5 h-44 w-44"><img src={productImage} alt="Product Image" className="w-full h-auto object-cover"/></div>
+                        <div className="p-3"><img src={productImage} alt="Product Image" className="w-24 h-24 object-contain mr-2"/></div>
                     ))}
+                </div>
+                <div className="my-16"><img src="https://preview.colorlib.com/theme/malefashion/img/shop-details/product-big.png.webp" alt="selected image" /></div>
+
+                <div>
+                    <h3>Hooded thermal anorak</h3>
+                    <p>5 reviews</p>
+                    <h4>$270.00 <s>70.00</s></h4>
+                    <p>Coat with quilted lining and an adjustable hood. Featuring long sleeves with adjustable cuff tabs, adjustable asymmetric hem with elastic side tabs and a front zip fastening with placket.</p>
+
+                    <form action="">
+                       
+                        <div>
+                            <InputField name='xxl' type='radio'/>
+                        </div>
+                    </form>
                 </div>
             </div>
         </>
