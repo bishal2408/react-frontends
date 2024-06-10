@@ -17,7 +17,7 @@ const ProductDetailsPage = () => {
             <div>
                 <div className="flex flex-wrap">
                     {productImages.map((productImage, i) => (
-                        <div className="p-3"><img src={productImage} alt="Product Image" className="w-24 h-24 object-contain mr-2"/></div>
+                        <div className="p-3" key={i}><img src={productImage} alt="Product Image" className="w-24 h-24 object-contain mr-2"/></div>
                     ))}
                 </div>
                 <div className="my-16"><img src="https://preview.colorlib.com/theme/malefashion/img/shop-details/product-big.png.webp" alt="selected image" /></div>
