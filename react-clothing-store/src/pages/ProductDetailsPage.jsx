@@ -51,6 +51,22 @@ const ProductDetailsPage = () => {
                                 S  <input type="radio" name="size" id="s" value='s' className="absolute invisible" onClick={() => setSize('s')}/>
                             </label>
                         </div>
+
+                        <div className="mb-5">
+                            <span className="mr-4 tracking-wider">Size:</span> 
+                            <label htmlFor="xxl" className={`text-black font-base font-semibold uppercase inline-block px-[8px] py-2 mb-0 mr-2 cursor-pointer border-[1px] border-solid ${size == 'xxl' ? ' bg-black text-white border-black' : ''}`}>
+                                XXL  <input type="radio" name="size" id="xxl" value='xxl' className="absolute invisible" onClick={() => setSize('xxl')}/>
+                            </label>
+                            <label htmlFor="xl" className={`text-black font-base font-semibold uppercase inline-block px-[8px] py-2 mb-0 mr-2 cursor-pointer border-[1px] border-solid ${size == 'xl' ? ' bg-black text-white border-black' : ''}`}>
+                                XL  <input type="radio" name="size" id="xl" value='xl' className="absolute invisible" onClick={() => setSize('xl')}/>
+                            </label>
+                            <label htmlFor="l" className={`text-black font-base font-semibold uppercase inline-block px-[8px] py-2 mb-0 mr-2 cursor-pointer border-[1px] border-solid ${size == 'l' ? ' bg-black text-white border-black' : ''}`}>
+                                L  <input type="radio" name="size" id="l" value='l' className="absolute invisible" onClick={() => setSize('l')}/>
+                            </label>
+                            <label htmlFor="s" className={`text-black font-base font-semibold uppercase inline-block px-[8px] py-2 mb-0 mr-2 cursor-pointer border-[1px] border-solid ${size == 's' ? ' bg-black text-white border-black' : ''}`}>
+                                S  <input type="radio" name="size" id="s" value='s' className="absolute invisible" onClick={() => setSize('s')}/>
+                            </label>
+                        </div>
                     </form>
                 </div>
             </div>
