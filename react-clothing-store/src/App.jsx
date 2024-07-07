@@ -6,6 +6,7 @@ import ShopPage from "./pages/ShopPage"
 import ShoppingCartPage from "./pages/ShoppingCartPage"
 import CheckoutPage from "./pages/CheckoutPage"
 import ProductDetailsPage from "./pages/ProductDetailsPage"
+import AboutUsPage from "./pages/AboutUsPage"
 
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
         <Route path="/cart" element={<ShoppingCartPage />} />
         <Route path="/checkout" element={<CheckoutPage />} />
         <Route path="/product-details" element={<ProductDetailsPage />} />
+        <Route path="/about" element={<AboutUsPage />} />
         
         <Route path="*" element={<NotFoundPage />} />
       </Route>
