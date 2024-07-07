@@ -1,8 +1,9 @@
 import AboutDetails from "../components/About/AboutDetails"
 import HeroNavigate from "../components/HeroNavigate"
 import TestimonialImage from "../assets/aboutpage/testimonial.jpg.webp"
-import MemberCardSection from "../components/About/MemberCardSection"
-
+import MemberSection from "../components/About/MemberSection"
+import ClientSection from "../components/About/ClientSection"
+ 
 
 
 
@@ -67,15 +68,9 @@ const AboutUsPage = () => {
                 </div>
             </div>
 
-            <div className="md:w-[90%] md:m-auto">
-                <div className="text-center">
-                    <span className="text-red-600 text-base font-semibold tracking-widest">Our Team</span>
-                    <h2 className="text-black font-semibold text-3xl tracking-wide mt-3">Meet Our Team</h2>
-                </div>
+            <MemberSection />
 
-               <MemberCardSection />
-
-            </div>
+            <ClientSection />
 
         </>
     )
