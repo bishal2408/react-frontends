@@ -11,9 +11,7 @@ const AboutUsPage = () => {
     return (
         <>
             <HeroNavigate parentLink='/about' />
-
             <AboutDetails />
-
 
             <div className="my-24 lg:flex lg:items-center bg-gray-100 -mx-4 ">
                 <div className="py-14 px-10 text-center text-[20px] pt-3 mb-6">
@@ -69,9 +67,7 @@ const AboutUsPage = () => {
             </div>
 
             <MemberSection />
-
             <ClientSection />
-
         </>
     )
 }

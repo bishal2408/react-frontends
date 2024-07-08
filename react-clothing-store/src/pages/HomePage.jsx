@@ -15,7 +15,6 @@ const HomePage = () => {
         <Sale />
         <SocialAd />
         <Blogs />
-        
     </>
   )
 }

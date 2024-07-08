@@ -10,7 +10,6 @@ const ShoppingCartPage = () => {
                 hasChildLink={true}
                 childLink='/cart'
             />
-
             <Cart />
         </>
     )
