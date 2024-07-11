@@ -19,8 +19,7 @@ const BlogPage = () => {
     return (
         <>
             <HeroNavigate parentLink="/blog" />
-
-            <div className="text-center flex items-center justify-center bg-no-repeat bg-cover h-[350px] mb-24" style={{ backgroundImage: `url(${breadcrumbImage})`, backgroundPosition: 'top center' }}>
+            <div className="text-center flex items-center justify-center bg-no-repeat bg-cover h-[350px] mb-16" style={{ backgroundImage: `url(${breadcrumbImage})`, backgroundPosition: 'top center' }}>
                 <div className="w-full-px-4 mx-auto">
                     <div className="flex flex-wrap -mx-4">
                         <h2 className="text-white text-6xl font-semibold tracking-tight">Our Blog</h2>
