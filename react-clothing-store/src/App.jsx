@@ -7,6 +7,7 @@ import ShoppingCartPage from "./pages/ShoppingCartPage"
 import CheckoutPage from "./pages/CheckoutPage"
 import ProductDetailsPage from "./pages/ProductDetailsPage"
 import AboutUsPage from "./pages/AboutUsPage"
+import BlogPage from "./pages/BlogPage"
 
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
         <Route path="/checkout" element={<CheckoutPage />} />
         <Route path="/product-details" element={<ProductDetailsPage />} />
         <Route path="/about" element={<AboutUsPage />} />
+        <Route path="/blog" element={<BlogPage />}/>
         
         <Route path="*" element={<NotFoundPage />} />
       </Route>
