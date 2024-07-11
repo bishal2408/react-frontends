@@ -15,21 +15,21 @@ const App = () => {
   const router = createBrowserRouter(
     createRoutesFromElements(
       <Route path="/" element={<MainLayout />}>
-        <Route index element={<HomePage />}/>
+        <Route index element={<HomePage />} />
         <Route path="/shop" element={<ShopPage />} />
         <Route path="/cart" element={<ShoppingCartPage />} />
         <Route path="/checkout" element={<CheckoutPage />} />
         <Route path="/product-details" element={<ProductDetailsPage />} />
         <Route path="/about" element={<AboutUsPage />} />
-        <Route path="/blog" element={<BlogPage />}/>
-        
+        <Route path="/blog" element={<BlogPage />} />
+
         <Route path="*" element={<NotFoundPage />} />
       </Route>
 
     )
   )
 
-  return <RouterProvider router={router}/>
+  return <RouterProvider router={router} />
 }
 
 export default App

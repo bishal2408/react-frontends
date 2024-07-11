@@ -1,5 +1,5 @@
 import { useState } from "react"
-import ProductList from "./ProductList"
+import ProductList from "../ProductList"
 
 const bestSellers = [
     { name: "Piqué Biker Jacket", rating: 5, price: "$67.24", image: "https://preview.colorlib.com/theme/malefashion/img/product/product-1.jpg" },

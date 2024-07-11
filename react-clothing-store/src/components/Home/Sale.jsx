@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import saleImage from "../assets/homepage/sale.png.webp";
+import saleImage from "../../assets/homepage/sale.png.webp";
 
 const Sale = () => {
     
