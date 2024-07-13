@@ -42,35 +42,18 @@ const ContactPage = () => {
                     <div className='lg:flex '>
                         <div className="mb-5 lg:mr-2 lg:w-full">
                             <input
-                                type='text'
-                                placeholder='Name'
-                                name='name'
-                                id='name'
-                                className="p-3 text-base w-full border-2 outline-none focus:border-black"
-                                required
-                            />
+                                type='text' placeholder='Name' name='name' id='name' className="p-3 text-base w-full border-2 outline-none focus:border-black" required/>
                         </div>
 
                         <div className="mb-5 lg:w-full">
-                            <input
-                                type='text'
-                                placeholder='Email'
-                                name='email'
-                                id='email'
-                                className="p-3 text-base w-full border-2 outline-none focus:border-black"
-                                required
+                            <input type='text' placeholder='Email' name='email' id='email' className="p-3 text-base w-full border-2 outline-none focus:border-black" required
                             />
                         </div>
                     </div>
 
 
                     <div className='mb-5'>
-                        <textarea
-                            name="message"
-                            id="message"
-                            placeholder='Message'
-                            className="p-3 text-base w-full border-2 outline-none focus:border-black"
-                            rows='4'
+                        <textarea name="message" id="message" placeholder='Message' className="p-3 text-base w-full border-2 outline-none focus:border-black" rows='4'
                         />
                     </div>
 
