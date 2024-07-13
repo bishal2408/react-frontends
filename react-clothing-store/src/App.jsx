@@ -8,6 +8,7 @@ import CheckoutPage from "./pages/CheckoutPage"
 import ProductDetailsPage from "./pages/ProductDetailsPage"
 import AboutUsPage from "./pages/AboutUsPage"
 import BlogPage from "./pages/BlogPage"
+import ContactPage from "./pages/ContactPage"
 
 
 const App = () => {
@@ -22,7 +23,8 @@ const App = () => {
         <Route path="/product-details" element={<ProductDetailsPage />} />
         <Route path="/about" element={<AboutUsPage />} />
         <Route path="/blog" element={<BlogPage />} />
-
+        <Route path="/contact" element={<ContactPage />} />
+        
         <Route path="*" element={<NotFoundPage />} />
       </Route>
 
