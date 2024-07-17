@@ -20,9 +20,8 @@ const pages = [
 ]
 
 const Navbar = () => {
+
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
-
-
 
     return (
         <header className="inset-x-0 top-0 z-50">
@@ -57,16 +56,14 @@ const Navbar = () => {
                                                 className="w-52 origin-top-right rounded-xl border border-white/5 bg-white/5 p-4 text-sm/6  [--anchor-gap:var(--spacing-1)] focus:outline-none"
                                             >
                                                 {pages.map((subPage, j) => (
-                                                    <MenuItem className="bg-gray-900 text-white text-base">
-                                                        <NavLink key={j} to={subPage.to} className="group flex w-full items-center gap-2 py-1.5 px-3 data-[focus]:bg-gray-800">
+                                                    <MenuItem key={j} className="bg-gray-900 text-white text-base">
+                                                        <NavLink to={subPage.to} className="group flex w-full items-center gap-2 py-1.5 px-3 data-[focus]:bg-gray-800">
                                                             {subPage.name}
                                                         </NavLink>
                                                     </MenuItem>
                                                 ))}
 
                                             </MenuItems>
-                                      
-
                                     </Menu>
                                 </div>
                                 : item.name}

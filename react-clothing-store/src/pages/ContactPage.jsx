@@ -51,7 +51,6 @@ const ContactPage = () => {
                         </div>
                     </div>
 
-
                     <div className='mb-5'>
                         <textarea name="message" id="message" placeholder='Message' className="p-3 text-base w-full border-2 outline-none focus:border-black" rows='4'
                         />
